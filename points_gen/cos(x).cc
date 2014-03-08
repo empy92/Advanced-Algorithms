@@ -9,12 +9,11 @@ using namespace std;
 
 int main ()
 {
-	int i;
-	cout << "x ;"<< " sen(x) " << endl;
+	cout << "x ;"<< " cos(x) " << endl;
 
-	for(i=0; i<NPOINTS; i++){
+	for(int i=0; i<NPOINTS; i++){
 		double x = ((double)i/NPOINTS) * 2.0 * PI; //divide 0--2PI in NPOINTS parts
-		cout << x << " ; " << cos(x) + MAX_ERROR*((2.0* rand()/RAND_MAX) -1.0) << endl; //sinX + (random number from +1.0 to -1.0)*MAX_ERROR
+		cout << x << " ; " << cos(x) + MAX_ERROR*((2.0* rand()/RAND_MAX) -1.0) << endl; //cosX + (random number from +1.0 to -1.0)*MAX_ERROR
 	}
 	return 0;
 }
