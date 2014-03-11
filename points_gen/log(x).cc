@@ -12,7 +12,7 @@ using namespace std;
 int main ()
 {
 	ofstream out;
-	out.open("logX.cvs");
+	out.open("logX.csv");
 	out << "x ;"<< " log(x) " << endl;
 
 	for(int i=0; i<NPOINTS; i++){
