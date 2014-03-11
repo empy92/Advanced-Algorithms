@@ -4,7 +4,7 @@
 #include <fstream>
 using namespace std;
 
-#define EPLSILON 0.00000000001
+#define EPLSILON 0.00001
 #define RANGE 1000
 #define NPOINTS 1000
 #define MAX_ERROR 0.0
